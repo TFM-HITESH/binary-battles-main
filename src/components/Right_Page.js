@@ -47,7 +47,7 @@ function Right_Page() {
                     <h3>Section 1</h3>
                 </div>
                 <div className="scroll-section">
-                    <h3>Section 2</h3>
+                    <h3 className="p-5 bg-cyan-500 ">Section 2</h3>
                 </div>
 
             </div>

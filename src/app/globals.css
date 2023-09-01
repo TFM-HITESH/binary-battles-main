@@ -27,9 +27,7 @@ body {
   background-color: var(--backgroundColor);
 }
 
-.hero__header {
-  
-  background-image: url(/public/firstPage_Img/layer-base.png);
+.hero__header { 
   height: 100vh;
   display: flex;
   text-align: center;
@@ -114,3 +112,11 @@ body {
 
 
 /*  */
+
+/* Hide scrollbar for webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+

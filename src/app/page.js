@@ -16,11 +16,8 @@ export default function Home() {
 
       <Hero />
 
-      <FirstPage />
+      {/* <FirstPage /> */}
 
-      
-
-      <Downward_Page />
       <Right_Page />
       <Downward_Page />
       <Left_Page />

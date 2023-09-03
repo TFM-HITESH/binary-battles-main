@@ -4,6 +4,7 @@ import Hero from '@/components/Hero'
 import Left_Page from '@/components/Left_Page'
 import Right_Page from '@/components/Right_Page'
 import ScrollSection from '@/components/ScrollSection'
+
 import Upward_Page from '@/components/Upward_Page'
 import FirstPage from '@/final_components/FirstPage'
 import Image from 'next/image'
@@ -15,8 +16,8 @@ export default function Home() {
     <>
 
       <Hero />
-
-      {/* <FirstPage /> */}
+      
+      <FirstPage />
 
       <Right_Page />
       <Downward_Page />

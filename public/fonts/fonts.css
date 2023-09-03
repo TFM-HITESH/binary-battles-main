@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('/public/fonts/ralewayblack.woff2') format('woff2'),
+         url('/public/fonts/ralewayregular.woff2') format('woff2');
+    /* Add more font formats if necessary */
+    font-weight: normal;
+    font-style: normal;
+  }

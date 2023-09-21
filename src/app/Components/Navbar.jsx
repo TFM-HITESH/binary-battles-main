@@ -13,7 +13,7 @@ function Navbar() {
   const logoMain = "/src/app/Components/logo.png";
 
   return (
-    <nav className="bg-[#06081d] p-4 flex items-center justify-between w-screen">
+    <nav className="bg-[#06081d] bg-opacity-80 p-4 flex items-center justify-between w-screen">
       {/* Logo */}
       <div className="flex items-center space-x-2">
         <Image
@@ -27,21 +27,21 @@ function Navbar() {
 
       {/* Center Buttons */}
       <div className="space-x-6 flex">
-        <Link href="/Round1">
+        <Link href="/Round_1">
           <div className="px-8 py-2 mr-3 ml-8 transition duration-300 ease-in-out opacity-50 transform hover:bg-stone-300 hover:text-black hover:shadow-lg hover:scale-105 rounded-md hover:opacity-100 animate-glow-opacity">
             <FontAwesomeIcon icon={faPuzzlePiece} className='px-2 h-5 w-5'/> 
             Analytical Arena
           </div>
         </Link>
 
-        <Link href="/Round2">
+        <Link href="/Round_2">
           <div className="px-8 py-2 mr-3 ml-3 transition duration-300 ease-in-out opacity-50 transform hover:bg-stone-300 hover:text-black hover:shadow-lg hover:scale-105 rounded-md hover:opacity-100 animate-glow-opacity">
           <FontAwesomeIcon icon={faMagento} className='px-2 h-5 w-5'/>
             Labyrinthine Odessey
           </div>
         </Link>
 
-        <Link href="/Round3">
+        <Link href="/Round_3">
           <div className="px-8 py-2 ml-3 transition duration-300 ease-in-out opacity-50 transform hover:bg-stone-300 hover:text-black hover:shadow-lg hover:scale-105 rounded-md hover:opacity-100 animate-glow-opacity">
           <FontAwesomeIcon icon={faLock} className='px-2 h-5 w-5'/>
             The Enigma

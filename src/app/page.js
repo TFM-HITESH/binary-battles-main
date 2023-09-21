@@ -6,11 +6,11 @@ import QuestionWheel from './Components/QuestionWheel'
 export default function Home() {
   return (
     <div className="bg-[#010c34] min-h-[100vh]">
-      <div className='w-screen overflow-auto h-[20%]'>
+      <div className='w-screen overflow-auto max-h-[20%]'>
         <Navbar />
-        <div className='w-[100%] h-[100%] flex justify-around'>
+        <div className='max-w-[100%] max-h-[100%] flex justify-around'>
           {/* sidebar */}
-          <div className='w-[25%] h-[100%]' >
+          <div className='w-[25%] max-h-[100%]' >
             <Sidebar />
           </div>
           <div className='w-[70%] max-h-[100%]'>
